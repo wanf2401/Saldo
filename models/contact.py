@@ -5,6 +5,7 @@ class Contact(db.Model):
     nombre = db.Column(db.String(100))
     money = db.Column(db.Integer())
     
+    
 def __init__(self,nombre,money):
     self.nombre = nombre
     self.money = money

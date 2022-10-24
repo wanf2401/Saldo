@@ -11,6 +11,7 @@ def index():
 
 @contacts.route('/new', methods=['POST'])
 def new_contact():
+    
         nombre = request.form['nombre']
         money = request.form['money']
         
